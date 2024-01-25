@@ -1,0 +1,282 @@
+@import "oogway_font/stylesheet.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Gotham Pro", serif;
+}
+
+
+@layer base {
+  :root {
+    --color-primary: #dcff50;
+    --color-secondary: #7b61ff;
+    --color-heading: #f5f5f7;
+    --color-text: rgba(255, 255, 255, 0.6);
+    --color-background: #090909;
+    font-size: 100%;
+  }
+}
+
+
+@layer utilities {
+  .translate-y-centered-offset {
+    @apply translate-y-[calc(-50%_+_var(--y))];
+  }
+
+  .translate-x-centered-offset {
+    @apply translate-x-[calc(-50%_+_var(--x))];
+  }
+}
+
+.gradient-text {
+  display: inline;
+  background: linear-gradient(to right, #00bfff, #a103fd);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+iframe {
+  width: 80%;
+  height: 500px;
+}
+
+@media (min-width: 769px) {
+  .app2png {
+    display: none;
+  }
+
+  .dccardbank {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  /*  dostijenia*/
+  .mobile-w {
+    width: 100%;
+    min-width: 10rem;
+    padding: 0 15px 0 15px;
+    margin: 0;
+    position: sticky;
+  }
+
+  .dostijenia {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 0 0 15px;
+    margin: auto;
+    position: absolute;
+  }
+
+  .head-text {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .oogway-logo {
+    margin-top: 400px;
+  }
+
+  /*TEAM*/
+  .team-block {
+    width: 100%;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 0;
+  }
+
+  .team-text {
+    width: 100%;
+    font-size: 20px;
+    padding: 0 5px 0 5px;
+    margin: 0;
+  }
+
+  .team {
+    width: 75%;
+    bottom: -325px;
+    left: -20px;
+    z-index: 50;
+  }
+
+  .OgVector {
+    top: 100px;
+    left: 15%;
+  }
+
+  /*  samePage APP*/
+  .app2png {
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .cool-opp-block {
+    padding: 0 15px 0 15px;
+    margin: 0;
+    top: 30%;
+    width: 100%;
+  }
+
+  .cool-opp {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 1000;
+    padding: 0;
+    margin: 0;
+  }
+
+  .cool-opp-sec-text {
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .app-download-img {
+    top: 0;
+    left: -200px;
+    padding: 0;
+    width: 100%;
+  }
+
+  .app-download {
+    width: 100%;
+    margin: auto;
+    top: 125%;
+    padding: 0 15px 0 15px;
+  }
+
+  /*  DC*/
+  .choiseDC {
+    font-size: 40px;
+  }
+
+  .eachCard {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .dcpng {
+    position: relative;
+    top: -50px;
+    left: -11%;
+    margin: auto;
+  }
+
+  .block-dcpng {
+    width: 100%;
+    padding: 0 15px 0 15px;
+    margin: 0;
+    top: 110%;
+    left: 0;
+  }
+
+  .dc-near {
+    font-size: 38px;
+  }
+
+  .smalldctext {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  .choiseHero {
+    font-size: 25px;
+  }
+
+  .next {
+    width: 30px;
+  }
+
+  /*  dostijenia*/
+  .mobile-w {
+    width: 100%;
+    min-width: 100%;
+    padding: 0 15px 0 15px;
+    margin: 0;
+  }
+
+  .dostijenia {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+  }
+
+  .head-text {
+    font-size: 30px;
+  }
+
+  /*  nasa pasa */
+  .nasa-other {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 2rem;
+  }
+
+  .imgs {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .imgs img {
+    width: 53%;
+    height: 40%;
+    margin: auto;
+    padding: 0;
+    left: -150%;
+    top: -90%;
+  }
+
+  .text-nasa {
+    padding: 0 20px 0 20px;
+    font-size: 1.5rem;
+    bottom: 150px;
+    line-height: 1.2;
+  }
+
+  .text-nasa span {
+    font-size: 3rem;
+  }
+
+  /*  our-comics*/
+  .our-comics {
+    margin-bottom: 400px;
+  }
+
+  /*  footer*/
+  .footer {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .f-header-text {
+    font-size: 3rem;
+    padding-top: 100px;
+  }
+
+  .f-oogway-heading {
+    font-size: 5rem;
+    font-weight: 800;
+  }
+
+  .video {
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+  }
+}
