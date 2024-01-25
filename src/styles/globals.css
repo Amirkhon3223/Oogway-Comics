@@ -81,8 +81,10 @@ iframe {
   .oogway-logo {
     margin-top: 400px;
   }
-
   /*TEAM*/
+  .oogway-block{
+    top: 100px;
+  }
   .team-block {
     width: 100%;
     margin: 0;
@@ -149,7 +151,8 @@ iframe {
   .app-download {
     width: 100%;
     margin: auto;
-    top: 125%;
+    top: 85vw;
+    left: 0;
     padding: 0 15px 0 15px;
   }
 

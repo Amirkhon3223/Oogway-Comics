@@ -36,7 +36,7 @@ export const Collaboration = () => {
   return (
     <section ref={targetRef} className="relative mt-[50vh] h-[200vh]">
       <div ref={extendedRef} className="mb-[-100vh] h-[420vh] max-w-7xl mx-auto">
-        <div className="sticky top-[0vh]">
+        <div className="sticky top-[0vh] oogway-block">
           <div className="lg:flex sm:flex-row justify-center items-center w-full">
             <motion.div style={{opacity}}
                         className="translate-y-centered-offset mt-20 relative lg:left-[50px] lg:px-0 px-3 w-2/3
