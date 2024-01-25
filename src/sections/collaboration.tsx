@@ -35,18 +35,18 @@ export const Collaboration = () => {
 
   return (
     <section ref={targetRef} className="relative mt-[50vh] h-[200vh]">
-      <div ref={extendedRef} className="mb-[-100vh] h-[420vh] w-full">
+      <div ref={extendedRef} className="mb-[-100vh] h-[420vh] max-w-7xl mx-auto">
         <div className="sticky top-[0vh]">
           <div className="lg:flex sm:flex-row justify-center items-center w-full">
             <motion.div style={{opacity}}
-                        className="translate-y-centered-offset mt-20 relative lg:left-[50px] lg:px-0 px-3 lg:w-2/2
-                                   xl:w-1/3 sm:w-full team-block sm:top-0 top-10 lg:top-0 md:w-1/2 md:top-10
+                        className="translate-y-centered-offset mt-20 relative lg:left-[50px] lg:px-0 px-3 w-2/3
+                                   team-block -top-5
                         ">
               <motion.p className="gradient-text font-bold xl:text-[6rem] lg:text-[5rem] text-[4rem]">
                 О нас
               </motion.p>
-              <motion.p className="text-white font-normal xl:text-xl lg:text-md text-sm lg:w-2/2 xl:w-3/4 md:w-full
-                                   pr-5 md:text-sm md:pr-0 leading-[1.3] team-text"
+              <motion.p className="text-white font-normal text-md w-3/4
+                                   pr-5 md:pr-0 leading-[1.3] team-text"
               >
                 Мы команда джедаев? Котов? Тех кто всю зарплау тратить на костюм астронавта. <br />
                 А вообще Oogway - сборище людей, которые видят мир в другом
@@ -58,7 +58,7 @@ export const Collaboration = () => {
                 style={{opacity}}
                 src="/oogway_comics/team.jpg"
                 className="h-auto team max-h-none xl:w-1/2 lg:w-1/2 absolute lg:mt-0 xl:mt-10 border-4 rounded-2xl rotate-6 lg:left-0
-                           -left-2 md:absolute lg:top-[105%] md:top-0 md:left-[110%] md:w-3/4"
+                           -left-2 md:absolute lg:top-[95%] md:top-0 md:left-[100%] md:w-3/4"
               />
             </motion.div>
             <motion.div style={{scale, y}}

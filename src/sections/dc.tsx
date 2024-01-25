@@ -159,7 +159,7 @@ export const Dc = () => {
           <motion.div
             className="translate-x-centered-offset lg:absolute sm:left-2/2 left-0 top-1 flex md:left-[20%]
                       sm:w-[100vw] lg:w-[65vw] xl:w-[50vw] md:w-[60vw] -translate-y-1/2 items-center md:absolute
-                      scale-[var(--scale)] flex-col justify-center md:-top-52 lg:-top-0 lg:left-[40%] xl:left-[30%]"
+                      scale-[var(--scale)] flex-col justify-center md:-top-52 lg:-top-0 lg:left-[40%] xl:left-[40%]"
             style={stylesWithCssVar({
               opacity,
               "--x": x,
@@ -168,9 +168,10 @@ export const Dc = () => {
           >
             <img src="/oogway_comics/OogwayCard.png" className="h-auto w-2/3 lg:w-1/2 scale-105 lg:scale-105 md:scale-125" />
           </motion.div>
+
           <motion.div
             className="translate-x-centered-offset absolute sm:left-1/2 -top-10 -left-1/4 lg:-top-1 flex sm:w-[50vw] md:w-[80vw] lg:w-[60vw] w-[100vw]
-                      -translate-y-1/2 scale-[var(--scale)] flex-col items-center justify-center md:left-96 xl:left-0 lg:left-96 md:-top-24"
+                      -translate-y-1/2 scale-[var(--scale)] flex-col items-center justify-center md:left-96 xl:left-52 lg:left-86 md:-top-24"
             style={stylesWithCssVar({
               opacity: loadingScreenOpacity,
               "--x": loadingScreenX,
@@ -249,7 +250,7 @@ export const Dc = () => {
             "--y": paragraph2TranslateY,
             position,
           })}
-          className="translate-y-centered-offset top-1/2 sm:-bottom-10 lg:-bottom-[20vw] xl:bottom-[0]
+          className="translate-y-centered-offset top-1/2 sm:-bottom-10 lg:-bottom-[20vw] xl:-bottom-32
                     sm:right-[200px] xl:right-[10%] lg:right-[0] md:right-[10px] right-0 sm:w-1/2 md:w-11/12 md:bottom-[100vw]
                     lg:w-1/2 xl:w-1/3  text-left sm:pr-16 lg:pr-5 md:pr-10 px-3 lg:px-0 text-white justify-start"
         >

@@ -171,9 +171,9 @@ export const SamePage = () => {
             <img src="/app2.png" className="h-auto w-1/3 lg:w-1/3 scale-125 lg:scale-100 md:scale-125" />
           </motion.div>
           <motion.div
-            className="translate-x-centered-offset absolute sm:left-1/2 md:-left-0 lg:-left-72 xl:-left-[50%] -top-1 flex
-                       sm:w-[50vw] lg:w-[100vw] xl:w-[70vw] md:w-[100vw] -translate-y-1/2 md:scale-[var(--scale)] lg:scale-[var(--scale)]
-                       sm:scale-[var(--scale)] flex-col items-center mr-52 app-download-img"
+            className="translate-x-centered-offset absolute sm:left-1/2 md:-left-0 lg:-left-72 xl:-left-[10%] -top-1 flex
+                       xl:w-[70vw] -translate-y-1/2 md:scale-[var(--scale)] lg:scale-[var(--scale)]
+                       flex-col items-center mr-52 app-download-img"
             style={stylesWithCssVar({
               opacity: loadingScreenOpacity,
               "--x": loadingScreenX,
@@ -185,9 +185,9 @@ export const SamePage = () => {
           </motion.div>
 
           <motion.div
-            className="app-download translate-y-centered-offset absolute lg:-top-64 lg:left-[calc(50%-34rem)]
-                      w-[50] md:w-[50rem] lg:w-[50rem] sm:pl-1 top-96 sm:left-[calc(50%-60rem)] xl:left-[calc(50%-50rem)]
-                      md:pl-5 leading-[1] text-white px-4 mt-5 md:left-[calc(100%-45rem)] md:bottom-16 md:mt-16"
+            className="app-download translate-y-centered-offset absolute lg:-top-64 left-[calc(50%-40rem)]
+                      w-[50] md:w-[50rem] lg:w-[50rem] sm:pl-1 top-96
+                      md:pl-5 leading-[1] text-white px-4 mt-5  md:bottom-16 md:mt-16"
             style={stylesWithCssVar({
               opacity: endTextOpacity,
               "--y": endTexty,
